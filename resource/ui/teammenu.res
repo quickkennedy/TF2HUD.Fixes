@@ -87,6 +87,7 @@
 		"team"				"3"		// team blue
 		"associated_model"	"bluedoor"
 		"hover"				"2.0"
+		"textinsetx"		"10"
 		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -115,6 +116,7 @@
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
 		"hover"				"2.0"
+		"textinsetx"		"10"
 		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -141,6 +143,7 @@
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
+		"textinsetx"		"15"
 		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -272,7 +275,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"MenuSmallestFont"
+		"font"			"TFFontMedium"
 		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}

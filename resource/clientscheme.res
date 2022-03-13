@@ -1642,7 +1642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2 Secondary"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1653,7 +1653,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2 Secondary"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -2030,8 +2030,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial Black"
-				"tall"			"8"
+				"name"			"TF2"
+				"tall"			"12"
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -2081,7 +2081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -2094,7 +2094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -2447,8 +2447,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"TF2 Secondary"
+				"tall"		"9"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"

@@ -67,10 +67,10 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"5"
+		"xpos"			"-2"
 		"xpos_minmode"	"9"
 		"xpos_hidef"	"2"
-		"ypos"			"1"
+		"ypos"			"-2"
 		"ypos_minmode"	"2"
 		"ypos_hidef"	"2"
 		"ypos_lodef"	"2"
@@ -83,6 +83,7 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"	
 		"labelText"		"%Ammo%"
+		"pin_to_sibling"	"AmmoInClip"
 		
 	}						
 	"AmmoInReserve"
@@ -153,10 +154,10 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"1"
+		"xpos"			"-2"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
-		"ypos"			"3"
+		"ypos"			"-2"
 		"ypos_hidef"	"4"
 		"ypos_lodef"	"4"
 		"zpos"			"5"
@@ -169,6 +170,7 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
+		"pin_to_sibling"	"AmmoNoClip"
 		
 	}									
 }
