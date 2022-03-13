@@ -118,7 +118,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"Default"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"

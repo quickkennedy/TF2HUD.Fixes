@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
+		"xpos"			"10"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"r120"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
@@ -30,8 +30,8 @@
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthImageBG"
@@ -42,7 +42,7 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"55"
+		"wide"			"0"
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"83"	[$X360]
 		"ypos"			"33"	[$WIN32]
@@ -68,26 +68,44 @@
 		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image"			""
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"0"
 		"xpos_minmode"	"61"
-		"ypos"			"51"	[$WIN32]
+		"ypos"			"65"	[$WIN32]
 		"ypos"			"55"	[$X360]
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"20"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"TanLight"
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"-2"
+		"xpos_minmode"	"61"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -105,7 +123,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusBleedImage"
 	{

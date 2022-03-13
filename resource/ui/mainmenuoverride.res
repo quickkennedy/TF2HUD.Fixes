@@ -576,8 +576,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"r50"
+		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -649,8 +649,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"r50"
+		"ypos"			"100"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -722,8 +722,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
-		"ypos"			"28"
+		"xpos"			"r50"
+		"ypos"			"135"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"

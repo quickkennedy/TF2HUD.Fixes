@@ -4,22 +4,28 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r258"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"				"r258"	[$WIN32]
+		"xpos_minmode"		"r52"	[$WIN32]
+		"ypos_minmode"		"r83"	[$WIN32]
+		"xpos"				"r194"	[$X360]
+		"ypos"				"r124"	[$X360]
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"image"			"../hud/misc_ammo_area_horiz3_blue"
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"			
+		"image"				"../hud/misc_ammo_area_horiz3_blue"
+		"teambg_2"			"../hud/misc_ammo_area_horiz3_red"
+		"teambg_3"			"../hud/misc_ammo_area_horiz3_blue"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_ENERGYDRINK"
-	}				
+		"xpos"				"33"
+		"labelText"			"#TF_ENERGYDRINK"
+	}
+	
+	"ItemEffectMeter"
+	{
+		"xpos"				"39"
+	}
 }
