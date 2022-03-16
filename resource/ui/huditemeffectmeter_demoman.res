@@ -1,58 +1,27 @@
+#base "huditemeffectmeter_cleaver.res"
+
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
 	{
-		"fieldName"				"HudItemEffectMeter"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"r75"	[$WIN32]
-		"ypos"					"r100"	[$WIN32]
-		"xpos_minmode"			"r120"	[$WIN32]
-		"ypos_minmode"			"r80"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r74"	[$X360]
-		"wide"					"80"
-		"tall"					"46"
-		"MeterFG"				"White"
-		"MeterBG"				"Gray"
+		"xpos"					"r169"
+		"xpos_minmode"			"r52"
+		"ypos_minmode"			"r68"
+		"x_offset"				"0"
+		"x_offset_minmode"		"0"
 	}
-
+	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
 		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"0"
-		"wide"					"80"
-		"tall"					"46"
-		"visible"				"1"
-		"visible_minmode"		"0"
-		"enabled"				"1"
-		"scaleImage"			"1"
-		"image"					"../hud/misc_ammo_area_blue"
-		"teambg_2"				"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"		"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"				"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"		"../hud/misc_ammo_area_blue_lodef"
+		"ypos"					"3"
+		"wide"					"110"
+		"tall"					"50"
+		"image"					"../hud/misc_ammo_area_horiz2_blue"
+		"teambg_2"				"../hud/misc_ammo_area_horiz2_red"
+		"teambg_3"				"../hud/misc_ammo_area_horiz2_blue"
 	}
-
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"10"
-		"ypos"					"29"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"10"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
-		"font"					"TFFontSmall"
-	}
-
+	
 	"ItemEffectMeter"
 	{
 		"ControlName"			"ContinuousProgressBar"
@@ -68,20 +37,21 @@
 		"visible"				"0"
 		"enabled"				"0"
 	}
-
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"10"
-		"ypos"					"10"
+		"xpos"					"25"
+		"ypos"					"15"
 		"zpos"					"2"
-		"wide"					"50"
+		"wide"					"55"
 		"tall"					"20"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"HudFontMedium"
+		"fgcolor"				"TanLight"
 	}
 }

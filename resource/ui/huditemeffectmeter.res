@@ -53,6 +53,7 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"textAlignment_minmode"	"west"
+		"fgcolor"				"TanLight"
 		"font"					"TFFontSmall"
 	}
 	
