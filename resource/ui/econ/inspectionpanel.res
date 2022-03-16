@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"xpos"			"cs-0.9"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"p0.75"
@@ -52,8 +52,8 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"xpos"			"cs-0.8"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"o1.5"
 		"tall"			"p0.8"
@@ -68,7 +68,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"75"
+		"fov"					"65"
 
 		"model"
 		{
@@ -123,8 +123,8 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"p.7-16"
+		"xpos"				"cs1.5"
+		"ypos"				"c-85"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
@@ -224,8 +224,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"p.7"
+		"xpos"			"cs0.3"
+		"ypos"			"p.2+50"
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
@@ -265,7 +265,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -505,6 +505,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
+			"font"			"HudFontSmallest"
 			"xpos"			"8"
 			"ypos"			"75"
 			"fixed_item"
@@ -545,6 +546,7 @@
 		{
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
+			"font"			"HudFontSmallest"
 			"xpos"			"90"
 			"ypos"			"75"
 			"fixed_item"
@@ -578,6 +580,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
+			"font"			"HudFontSmallest"
 			"xpos"		"rs1-10"
 			"ypos"			"75"
 			"fixed_item"

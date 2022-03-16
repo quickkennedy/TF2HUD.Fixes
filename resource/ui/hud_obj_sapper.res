@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
+			"font"			"HudFontSmallest"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -118,7 +118,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"HudFontSmallest"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
