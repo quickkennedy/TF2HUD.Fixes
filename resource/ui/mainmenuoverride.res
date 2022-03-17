@@ -473,8 +473,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
-		"ypos"			"28"
+		"xpos"			"r50"
+		"ypos"			"30"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -2314,7 +2314,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-288"
+		"xpos"			"c-295"
 		"ypos"			"rs1-18"
 		"wide"			"100"
 		"tall"			"26"
