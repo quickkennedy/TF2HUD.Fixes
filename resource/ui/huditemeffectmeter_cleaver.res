@@ -7,7 +7,7 @@
 		"xpos"				"r169"
 		"xpos_minmode"		"r52"
 		"ypos_minmode"		"r68"
-		"x_offset"			"40"
+		"x_offset"			"45"
 		"x_offset_minmode"	"0"
 	}
 	

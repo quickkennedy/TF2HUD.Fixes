@@ -533,7 +533,7 @@
 		"command"			"sv_cheats 1;r_skin 0"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"HUDRedTeam"
+		"defaultFgColor_override"	"HUDRedTeamSolid"
 		"armedFgColor_override"		"White"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -562,7 +562,7 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"HUDBlueTeam"
+		"defaultFgColor_override"	"HUDBlueTeamSolid"
 		"armedFgColor_override"		"White"
 
 		"sound_depressed"	"UI/buttonclick.wav"

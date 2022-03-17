@@ -9,6 +9,8 @@
 		"ypos_minmode"		"r83"	[$WIN32]
 		"xpos"				"r194"	[$X360]
 		"ypos"				"r124"	[$X360]
+		"x_offset"			"5"
+		"x_offset_minmode"	"0"
 	}
 	
 	"ItemEffectMeterBG"

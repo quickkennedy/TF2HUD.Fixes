@@ -77,7 +77,7 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"14"
 		"xpos_minmode"	"61"
-		"ypos"			"65"	[$WIN32]
+		"ypos"			"63"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"90"

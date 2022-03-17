@@ -14,7 +14,7 @@
 	"ItemEffectMeterBG"
 	{
 		"xpos"					"0"
-		"ypos"					"3"
+		"ypos"					"5"
 		"wide"					"110"
 		"tall"					"50"
 		"image"					"../hud/misc_ammo_area_horiz2_blue"
