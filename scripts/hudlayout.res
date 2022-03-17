@@ -1,43 +1,8 @@
+#base	"../customizations/hitmarker.res"
+#base	"../customizations/transparent viewmodels.res"
+
 "Resource/HudLayout.res"
 {
-	"hitmarker"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"hitmarker"
-		"xpos"			"c-4"
-		"ypos"			"c-4"
-		"zpos"			"20"
-		"wide"			"8"
-		"tall"			"8"
-		"enabled"		"1"
-		"visible"		"1"
-		"image"			"replay/thumbnails/hitmarker_red"
-		"scaleImage"	"1"
-		"Alpha"			"0"
-		"teambg_2"		"replay/thumbnails/hitmarker_red"
-		"teambg_3"		"replay/thumbnails/hitmarker_blue"
-	}
-	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODEL
-	//--------------------------------------------------------------
-	// Set visible/enabled to 1 to use.
-	//--------------------------------------------------------------
-	"TransparentViewmodel"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TransparentViewmodel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-100"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"replay/thumbnails/transparent"
-		"scaleImage"		"1"
-	}
-	//--------------------------------------------------------------
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
