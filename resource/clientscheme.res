@@ -1,5 +1,3 @@
-#base "../resource/crosshairs.res"
-
 //
 // TRACKER SCHEME RESOURCE FILE
 //
